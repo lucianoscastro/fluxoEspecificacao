@@ -1,0 +1,34 @@
+@host = http://localhost:5010
+
+### Cadastrar pet (sucesso -> 201 Created)
+POST {{host}}/pets
+Content-Type: application/json
+
+{
+  "name": "Bidu",
+  "breed": "SRD",
+  "birthDate": "2020-05-15",
+  "tutorName": "Maria Silva"
+}
+
+### Validação: data de nascimento no futuro (-> 400 Bad Request)
+POST {{host}}/pets
+Content-Type: application/json
+
+{
+  "name": "Rex",
+  "breed": "Labrador",
+  "birthDate": "2999-01-01",
+  "tutorName": "João"
+}
+
+### Validação: campos obrigatórios vazios (-> 400 Bad Request)
+POST {{host}}/pets
+Content-Type: application/json
+
+{
+  "name": "",
+  "breed": "",
+  "birthDate": "2020-05-15",
+  "tutorName": ""
+}
