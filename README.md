@@ -3,7 +3,7 @@
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> Exemplo prático que acompanha o artigo do LinkedIn sobre **desenvolvimento guiado por especificação** (_spec-driven_) com agentes de IA.
+> Exemplo prático que acompanha o artigo do [`LinkedIn`](https://www.linkedin.com/pulse/ilus%C3%A3o-do-prompt-perfeito-por-que-o-seu-fluxo-de-ia-precisa-castro-abo8f/) sobre **desenvolvimento guiado por especificação** (_spec-driven_) com agentes de IA.
 >
 > O código aqui é proposital­mente simples. O valor está em **como** ele foi produzido: de uma ideia em linguagem natural até a implementação, passando por PRD, especificação técnica, decisões de arquitetura e tarefas — tudo versionado em [`.compozy/`](.compozy/tasks/pet-registration/).
 
